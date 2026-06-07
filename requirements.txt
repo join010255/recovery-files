@@ -1,0 +1,12 @@
+# PhoenixRecover — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Qt GUI framework (choose one; PySide6 is preferred)
+PySide6>=6.5.0
+
+# Optional: PyQt6 as fallback if PySide6 is unavailable
+# PyQt6>=6.5.0
+
+# Windows-specific: enhanced Win32 API access
+# pywin32 is optional; ctypes is used for all critical paths
+# pywin32>=306  ; sys_platform == "win32"
